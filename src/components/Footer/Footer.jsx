@@ -11,20 +11,20 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        {/* Esquerda */}
+        
         <div className={styles.brand}>
           <img className={styles.logo} src={Logo} alt="Logo Connect" />
           <span className={styles.name}>Connect</span>
         </div>
 
-        {/* Centro */}
+       
         <p className={styles.centerText}>
           © 2026 Vai na Web &amp; Empower. Todos os direitos reservados.
           <br />
           Projeto destinado exclusivamente a fins educativos.
         </p>
 
-        {/* Direita */}
+     
         <div className={styles.social}>
           <a href="#" aria-label="WhatsApp">
             <img src={Whatsapp} alt="WhatsApp" />
