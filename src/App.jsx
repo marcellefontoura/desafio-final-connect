@@ -1,22 +1,26 @@
-// Importando os componentes que estarão presentes em todas as páginas,
-// como o cabeçalho (NavBar) e o rodapé (Footer)
+import { Routes, Route } from "react-router-dom";
 
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 
-// Importando o arquivo de estilos globais,
-// responsável por definir o padrão visual da aplicação inteira
+import Inicio from "./components/Inicio/Inicio";
+import Acoes from "./components/AcoesDaConnect/AcoesDaConnect";
+import QuemSomos from "./components/QuemSomos/QuemSomos";
+import Perfil from "./components/Perfil/Perfil";
 
 import "./global.scss"
 
 function App() {
   return (
     <>
-      {/* Renderizando o cabeçalho */}
-
       <NavBar />
 
-      {/* Renderizando o rodapé */}
+      <Routes>
+        <Route path="/" element={<Inicio />} />
+        <Route path="/acoes" element={<Acoes />} />
+        <Route path="/quemSomos" element={<QuemSomos />} />
+        <Route path="/perfil" element={<Perfil />} />
+      </Routes>
 
       <Footer />
     </>
