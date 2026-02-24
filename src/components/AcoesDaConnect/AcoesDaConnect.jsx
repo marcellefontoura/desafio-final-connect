@@ -24,21 +24,21 @@ function AcoesDaConnect() {
           <img src={Multirao} alt="Mutirão de reciclagem" />
           <h3>Mutirão de reciclagem</h3>
           <p>Coletar materiais recicláveis e orientar sobre descarte consciente.</p>
-          <button>Quero participar</button>
+          <button>Quero Participar</button>
         </div>
 
         <div className={styles.card}>
           <img src={Aulas} alt="Aulas de Tecnologia" />
           <h3>Aulas de Tecnologia</h3>
           <p>Ensinar noções básicas de informática, internet segura e programação. Preparar jovens para o mercado de trabalho digital.</p>
-          <button>Quero participar</button>
+          <button>Quero Participar</button>
         </div>
 
         <div className={styles.card}>
           <img src={Esporte} alt="Esporte e Inclusão" />
           <h3>Esporte e Inclusão</h3>
           <p>Organizar treinos e jogos que incentivem a participação de todos. Promover disciplina, saúde e trabalho em equipe entre jovens.</p>
-          <button>Quero participar</button>
+          <button>Quero Participar</button>
         </div>
 
         <div className={styles.card}>
